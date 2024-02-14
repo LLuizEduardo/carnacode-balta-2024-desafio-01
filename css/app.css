@@ -1,15 +1,28 @@
  .flex {
-    display: flex;
-}
+     display: flex;
+ }
 
 
-/*
+ /*
 .flex-row {
     flex-direction: row;
 }
+*/
 
-.input-text {
-    background-color: #F6F6F6;
-    border: 2px solid #BDBDBD;
-} */
+ .input-text {
+     background-color: #F6F6F6;
+     border: 2px solid #BDBDBD;
+ }
 
+
+ .button-ini {
+     background-color: #45FEFE;
+     border-radius: 15%;
+ }
+
+ .main-ini {
+     background-color: #F5F5F5;
+     display: grid;
+     justify-content: center;
+     
+ }
