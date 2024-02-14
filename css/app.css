@@ -9,20 +9,51 @@
 }
 */
 
- .input-text {
-     background-color: #F6F6F6;
-     border: 2px solid #BDBDBD;
+ h1 {
+     font-size: 30px;
  }
 
+ .titulo {
+     color: #000000;
+     text-align: center;
+ }
+
+ .input-text {
+     background-color: #E8E8E8;
+     border: 2px solid #BDBDBD;
+     border-radius: 8px;
+     width: 343px;
+     height: 50px;
+     font-size: 16px;
+ }
+
+ .btns {
+     width: 343px;
+     height: 51px;
+     border: 0px;
+     border-radius: 32px;
+     font-size: 16px;
+ }
 
  .button-ini {
      background-color: #45FEFE;
-     border-radius: 15%;
+     border: none;
+ }
+
+ .button-calc {
+     background-color: #FFFFFF;
+     border: 5px solid #45FEFE;
  }
 
  .main-ini {
      background-color: #F5F5F5;
      display: grid;
      justify-content: center;
-     
  }
+
+ .check-label {
+     font-size: 14px;
+     color: #666666;
+ }
+
+ .check-input {}

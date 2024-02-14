@@ -9,35 +9,26 @@
 </head>
 
 <body>
-    <!-- <div>ITEM 1</div>
-    <div class="flex flex-column">
-        <div>ITEM 2.1</div>
-        <div>ITEM 2.2</div>
-        <div>ITEM 2.3</div>
-    </div>
-    <div>
-        <input class="input" type="text" />
-    </div>
-    <div>ITEM 4</div>
-    <div>ITEM 5</div>
-    <div>ITEM 6</div> -->
 
     <main class="main-ini">
-        <label for="titulo">Cálculo de IMC</label>
-
+        <div class="titulo">
+            <h1>Cálculo de IMC</h1>
+        </div>
         <div>
             <input class="input-text flex" type="number" placeholder="Altura">
             <input class="input-text flex" type="number" placeholder="Peso">
             <input class="input-text flex" type="text" placeholder="Sexo">
         </div>
         <div>
-            <input type="checkbox" name="idoso" id="">
-            <label>Eu tenho 65 anos ou mais</label>
+            <input class="check-input" type="checkbox" name="idoso" id="">
+            <label class="check-label">Eu tenho 65 anos ou mais</label>
         </div>
-        <button class="button-ini flex">Calcular meu IMC</button>
-        <button class="flex">Entenda o cálculo</button>
+        <button class="btns button-ini" onclick="clicarBotoes()">Calcular meu IMC</button>
+        <button class="btns button-calc" onclick="clicarBotoes()">Entenda o cálculo</button>
     </main>
 
 </body>
+
+<script src="js/app.js"></script>
 
 </html>
