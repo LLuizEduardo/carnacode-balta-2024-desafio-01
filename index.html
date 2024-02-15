@@ -10,21 +10,28 @@
 
 <body>
 
-    <main class="main-ini">
-        <div class="titulo">
-            <h1>Cálculo de IMC</h1>
-        </div>
-        <div>
-            <input class="input-text flex" type="number" placeholder="Altura">
-            <input class="input-text flex" type="number" placeholder="Peso">
-            <input class="input-text flex" type="text" placeholder="Sexo">
-        </div>
-        <div>
-            <input class="check-input" type="checkbox" name="idoso" id="">
-            <label class="check-label">Eu tenho 65 anos ou mais</label>
-        </div>
-        <button class="btns button-ini" onclick="clicarBotoes()">Calcular meu IMC</button>
-        <button class="btns button-calc" onclick="clicarBotoes()">Entenda o cálculo</button>
+    <main class="main-ini" id="app">
+        <form method="clicarBotoes()">
+            <div class="titulo">
+                <h1>Cálculo de IMC</h1>
+            </div>
+            <div>
+                <input class="input-text flex" type="number" placeholder="Altura" required>
+                <br>
+                <input class="input-text flex" type="number" placeholder="Peso" required>
+                <br>
+                <input class="input-text flex" type="text" placeholder="Sexo" required>
+            </div>
+            <br>
+            <div>
+                <input class="check-input" type="checkbox" name="idosoCheck" id="idosoCheck">
+                <label class="check-label" for="idosoCheck">Eu tenho 65 anos ou mais</label>
+            </div>
+            <br>
+            <button class="btns button-ini" onclick="clicarBotoes()"><b>Calcular meu IMC</b></button>
+        </form>
+        <br>
+        <button class="btns button-calc" onclick="clicarBotoes()"><b>Entenda o cálculo</b></button>
     </main>
 
 </body>
